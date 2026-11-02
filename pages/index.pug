@@ -1,0 +1,7 @@
+include ../templates/global.pug
+
++document(locale.code, locale.translations.site.title)
+  main
+    h1= locale.translations.site.heading
+    p= locale.translations.site.description
+    a(href=`/${locale.code}/test/`) Test page

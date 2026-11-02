@@ -1,0 +1,9 @@
+---
+---
+include ../../templates/global.pug
+include ../../components/image.pug
++document(locale.code, locale.translations.site.title)
+  main
+    h1 Test page
+    +image("../../public/images/blueberry.jpg", "Blueberry")
+    +image("../../public/images/frozen-yogurt.jpg", "Frozen yogurt", { loading: "lazy" })

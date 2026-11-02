@@ -1,0 +1,2 @@
+mixin image(src, alt, nativeAttrs={})
+  img(src=src alt=alt sizes="(max-width: 800px) 100vw, 800px" eleventy:widths="400,800" eleventy:formats="webp,jpeg")&attributes(nativeAttrs)

@@ -1,0 +1,12 @@
+mixin document(lang, title, options={})
+  doctype html
+  html(lang=lang)
+    head
+      meta(charset="utf-8")
+      meta(name="viewport" content="width=device-width, initial-scale=1")
+      if options.redirect
+        meta(http-equiv="refresh" content=`0;url=${options.redirect}`)
+        link(rel="canonical" href=options.redirect)
+      title= title
+    body
+      block

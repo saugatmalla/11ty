@@ -1,0 +1,11 @@
+---
+permalink: /
+---
+include ../templates/global.pug
++document("en-US", "WTC | Eleventy", { redirect: "/en-us/" })
+  p
+    | Redirecting to 
+    a(href="/en-us/") English (US)
+    | ...
+  script.
+    window.location.replace("/en-us/");

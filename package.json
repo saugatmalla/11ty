@@ -1,0 +1,17 @@
+{
+  "name": "eleventy-localized-site",
+  "private": true,
+  "scripts": {
+    "build": "eleventy",
+    "start": "eleventy --serve",
+    "preview": "serve dist"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2",
+    "@11ty/eleventy-img": "^7.1.1",
+    "@11ty/eleventy-plugin-pug": "^1.0.0",
+    "js-yaml": "^4.1.0",
+    "pug": "^3.0.4",
+    "serve": "^14.2.6"
+  }
+}
